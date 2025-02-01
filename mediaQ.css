@@ -1,0 +1,267 @@
+@media (max-width: 1080px) {
+    #loader h1 {
+        font-size: 5rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    img.ham {
+        display: block;
+        position: absolute;
+        right: 7%;
+        top: 3%;
+        z-index: 2;
+    }
+
+    #profile {
+        width: 100vw;
+        height: 91vh;
+    }
+
+    .profile-logo {
+        display: block;
+    }
+
+    .profile-top {
+        font-size: 3rem;
+        top: 35%;
+        width: 80%;
+        height: 30vh;
+    }
+
+    
+
+    .content {
+        left: 10%;
+        top: 55%;
+    }
+
+    .content h3 {
+        bottom: 25%;
+    }
+
+    img.picture {
+        height: 550px;
+        right: -10%;
+        bottom: 2%;
+    }
+
+    img.wave {
+        width: 100%;
+        height: 10vh;
+        bottom: 0;
+
+    }
+    
+    .about-head{
+        height: 10vh;
+        width: 100%;
+        font-size: 5rem;
+        padding: 0 5%;
+    }
+    .about-head span{
+        font-size: 7rem;
+        color: #ffffff;
+        
+    }
+    .pg1-1{
+        height: 10vh;
+        padding: 0 4%;
+        font-size: 2.4rem;
+    }
+    .pg1-2{
+        height: 20vh;
+        padding: 0 4%;
+        margin-top: 10px;
+        font-size: 2.4rem;
+        width: 90%;
+    }
+    .pg1-3{
+        height: 11vh;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .pg1-4{
+        height: 13vh;
+        width: 100%;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    .pg1-5{
+        height: 13vh;
+        font-size: 2.5rem;
+        padding: 0 4%;
+        margin-bottom: 10px;
+    }
+    
+    .pg1-6{
+        height: 10vh;
+        padding: 3%;
+        margin-top: 30px;
+        font-size: 2.7rem;
+    }
+    .back{
+        padding: 29px 35px;
+        border-radius: 35%;
+        font-size: 38px;
+    }
+
+    #hero-section{
+        height: 90vh;
+        width: 100%;
+        background-color: #FDA12F;
+        position: relative;
+    }
+    #hero-section h1{
+        padding-left: 50px;
+        padding-top: 80px;
+        font-size: 4.8rem;
+        color: #fff;
+    }
+   
+    .hero-upper1{
+        height: 75vh;
+        font-size: 3rem;
+    }
+    .hero-upper1 ul li{
+        margin-bottom: 42px;
+    }
+    .hero-upper2{
+        height: 75vh;
+        font-size: 2.3rem;
+    }
+    .hero-upper2 ul li{
+        margin-bottom: 22px;
+    }
+    #vision{
+        box-shadow: inset 2px 2px 10px #0000005b;
+        padding: 19px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #mission{
+        padding: 19px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #page3{
+        height: 100vh;
+        width: 100%;  
+        position: relative;
+        color: white;
+        background-color: #000000;
+    }
+    
+    .footer{
+    height: 88vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 10;
+    }
+    .f2{
+        height: 30vh;
+        width: 100%;
+        top: 8%;
+        border-radius: 40%;
+        filter: blur(55px);
+        
+        }
+    
+    .f3{
+        height: 30vh;
+        width: 100%;
+        position: absolute;
+        top: 5%;
+        border-radius: 40%;
+        filter: blur(35px);
+        
+    }
+    .f4{
+        height: 30vh;
+        width: 100%;
+        position: absolute;
+        top: 2%;
+        border-radius: 40%;
+        filter: blur(50px);
+        
+    }
+    @keyframes footerAnimie{
+        from{
+        transform: translate(0,-0%);
+    }
+    to{
+        transform: translate(0,0%);
+    }
+    }
+    .top-line{
+        height: 5vh;
+        top: 0;
+    }
+    .end-note{
+        font-size: 2.6rem;
+        
+    }
+    .orange-line{
+        height: 15px;
+    }
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        height: 40vh;
+        width: 80%;
+        margin: 0 10%;
+        position: relative;
+    }
+    .foot-info{
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        font-size: 3rem;
+        font-weight: 500;
+        color: #ffffff;
+        position: absolute;
+        bottom: 99%;
+    }
+    .foot-info p{
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #aaa9a9;
+    
+    }
+    .foot-links{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 3rem;
+        color: #ffffff;
+        position: relative;
+    }
+    .foot-links a{
+        color: #aaa9a9;
+        text-decoration: none;
+        font-size: 2.2rem;
+    }
+    .foot-links a:hover{
+        color: #ffffff;
+        text-decoration: underline ;
+      }
+    .foot-social{
+        font-size: 3rem;
+        display: flex;
+        gap: 1.2rem;
+        transition: transform 0.3s ease;
+    }
+
+    .foot-social a:hover i{
+        transform: scale(1.5);
+    }
+    
+    
+}
